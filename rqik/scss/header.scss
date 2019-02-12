@@ -1,0 +1,35 @@
+@mixin clearfix() {
+   &::after {
+      display: block;
+      content: "";
+      clear: both;
+   }
+}
+ div{
+    border: 1px solid red;
+    box-sizing: border-box;
+ }
+.header {
+      background: #aaa9a9;
+      position: relative;
+   .container {
+      margin: 20px auto;
+      margin-top: 30px;
+      @include clearfix;
+      .header__left{
+         width: 50%;
+         float: left;
+         .logo__item{
+         width: 100px;
+      }}
+      .header__right{
+         float: left;
+         text-align: right;
+         width: 50%; margin-top: 10px;
+        .contact{text-decoration: none;
+         font-size: 22px;
+        
+      }   
+        }
+   }
+}
