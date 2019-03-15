@@ -1,0 +1,12 @@
+*,
+:after,
+:before {
+   box-sizing: border-box;
+}
+
+html {
+   -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+}

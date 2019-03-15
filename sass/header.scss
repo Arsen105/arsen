@@ -1,0 +1,61 @@
+nav {
+  position: fixed;
+   z-index: 2;
+   padding: 0 40px; //грид headera
+   box-sizing: border-box;
+   height: 120px;
+   display: grid;
+   grid-template-columns: 1fr 4fr 1fr;
+   justify-items: center;
+   align-items: center;
+   // border: 1px dashed red;
+}
+
+nav>div {
+   padding: 0;
+}
+
+.logo_img {
+   max-width: 3.6em;
+}
+
+.header_left {
+   margin: 0; // justify-self: start;
+}
+
+.header_right {
+   justify-self: end;
+   margin: 0;
+}
+
+.header_center {
+   justify-self: center;
+}
+
+//навигация
+.nav .nav_links {
+   list-style-type: none;
+}
+
+.nav {
+   padding: 0;
+   display: grid;
+   grid-template-columns: repeat(4, auto); //min-width: 130px;
+   box-sizing: border-box;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   margin:0 1em;
+   padding: 0 40px;
+   grid-gap: 5em;
+   :hover {
+      transition: 0.2s ease-out;
+      color: blue;
+      font-size: 130%;
+   }
+}
+
+.nav_links {
+   padding: 0 auto;
+   color: $tb_color;
+}
