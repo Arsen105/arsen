@@ -1,8 +1,11 @@
-@import 'normalize.css','font', 'setting';
+@import 'font', 'setting';
 $color_a: #eee; //backgroung 
 $color_b:#fff; //back2
 $tb_color: #151c22;  //text color
-$font_base: "GrapM", sans-serif;
+$tb_colorH: #ff5722; //base
+$tb_colorD: #c41c00; // dark
+$tb_colorL: #ff8a50;//ligth
+$font_base: "Roboto", sans-serif;
 body {
    height: 100%;
   min-height: 100%;
@@ -24,23 +27,6 @@ body {
    //width: 100%;
    margin: 0 auto;
 }
-a{
-   text-decoration: none;
-}
-.acide{
-   display: flex;
-   grid-template-columns: auto 2fr 1fr;
-   // width: 100px;
-   // min-width: 100%;
-}
-.social__left{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 8.2rem;
-   z-index: 3;
-}
-
 
 .first_sl{
    display: flex;
@@ -55,16 +41,14 @@ a{
    display: flex;
    justify-content: space-around;
    margin: 0 7vw;
+   padding: 0;
 }
 .works__item{
-     width: 8.2vw;
+   width: 11.7vw;
    display: grid;
    color: #fff; 
    border-radius: 1rem;
-   position: relative;
-   
-  // height: 50vh;
-   
+   position: relative;  
   }
 
 .works__link{
@@ -88,4 +72,4 @@ a{
    }
 }
 
-@import "header";
+@import 'normalize.css' , "acideleft", "header";

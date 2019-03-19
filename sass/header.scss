@@ -1,4 +1,5 @@
 nav {
+   font-weight: 500;
   position: fixed;
    z-index: 2;
    padding: 0 40px; //грид headera
@@ -38,6 +39,7 @@ nav>div {
 }
 
 .nav {
+  
    padding: 0;
    display: grid;
    grid-template-columns: repeat(4, auto); //min-width: 130px;
@@ -50,8 +52,7 @@ nav>div {
    grid-gap: 5em;
    :hover {
       transition: 0.2s ease-out;
-      color: blue;
-      font-size: 130%;
+      color: $tb_colorH;
    }
 }
 
