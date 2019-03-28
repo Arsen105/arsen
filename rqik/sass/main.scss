@@ -191,10 +191,11 @@ h2 {
 }
 
 .i_titel {
+   margin-bottom: 2rem;
    z-index: 52;
    font-weight: 500;
    font-size: 3rem;
-   line-height: 5rem*1.6;
+   line-height:normal;
 }
 
 .i_content {
@@ -208,6 +209,7 @@ h2 {
    background-size: cover;
 }
 .info_box{
+  width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -231,6 +233,7 @@ h2 {
       margin-top: 2rem;
       padding: 1rem 4rem;
       border-radius: .8rem;
+      border: 1px solid #fff;
       &:hover{
          
          color: #000;
@@ -250,6 +253,7 @@ h2 {
 }
 
 form{ 
+   width: 100%;
    height: 100%;
    margin: 2rem auto;
    padding: 3rem 3rem;
@@ -393,4 +397,81 @@ cursor: pointer;
    transform: translate(8px);
    color: #ff833a;
 }
+}
+
+@media  (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1170px){
+   .intro_h1{
+      margin-top: 11rem;
+   }
+   .nav{
+   margin-top: 5rem;
+  }
+   .nav_link{
+     font-size: 2rem;
+  }
+  .buttom{
+     margin-top: 13rem;
+  }
+  .btn_int{
+     
+     border: 2px solid;
+     font-size: 3rem;
+  }
+  .info_s{
+     grid-template-rows: repeat(5, 1fr);
+     grid-template-columns: 1fr;
+     grid-auto-flow: row;
+     .info_s2{
+      &:nth-child(1){
+         grid-column:initial;
+      }
+     }
+  }
+  form, .info_box{
+     max-width: 80vw;
+     margin: 2rem auto;
+  }
+  
+}
+@media only screen and (max-width: 970px){
+   .intro_h1{
+      font-size: 9rem;
+      padding-left: 5rem;
+      line-height: initial;
+      margin-bottom: 0;
+   }
+   .intro_h2{
+      margin-top: 2rem;
+      align-self: center;
+      text-align: start;
+      font-size: 4rem;
+      line-height: initial;
+      padding-left: 5rem;
+   }
+   .buttom{
+      margin-top: 5rem;
+   }
+   .main_header{
+      grid-template-columns: 1fr;
+   }
+   .nav{
+   a{
+      font-size: 1.6rem;
+   }
+   }
+   
+}
+@media only screen and (max-width: 750px){
+   form, .info_box{
+      max-width: 90vw;
+      margin: 2.5vw auto;
+      padding:  5vw;
+   }
+}
+@media only screen and (max-width: 420px){
+
 }
