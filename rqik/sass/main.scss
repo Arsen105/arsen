@@ -366,11 +366,12 @@ footer{
    background-color: #272727;
    color: #ffffff;
    display: flex;
+   flex-direction:row;
    justify-content: space-evenly;
    align-items: center;
    .footer_soc{
       display: flex;
-      // flex-wrap: wrap;
+      flex-wrap: wrap;
       flex-direction: column;
       justify-content: center;
       align-items: center;
