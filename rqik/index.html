@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="sass/normalize.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<!-- <script src="js/config.js"></script> -->
 	<title>Document</title>
 </head>
 
@@ -30,26 +32,92 @@
 					</ul>
 				</div>
 			</div>
-			<div class="intro_header">
-				<h1 class="intro_h1">Лига Будущего </h1>
-				<div class="buttom"><a href="#" class="btn_int"> узнать больше</a> </div>
+			<div class="intro_header " style="background-image:url('img/background2.jpg')">
+				<h1 class=" intro_h1">Лига Будущего<h2 class="intro_h2">Семейный образовательный фестиваль</h2>
+				</h1>
+
+				<div class="buttom"><a href="#" class="btn_int"> Забронировать участие</a> </div>
 			</div>
 		</header>
 		<div class="conect">
-				
-			<div class="info_s"><h2 class="info_s2"> Lorem ipsum dolor sit </h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui molestias doloribus eum est maiores voluptatum velit eius tempora minus dignissimos voluptatem sint ipsa officia sed assumenda consectetur earum, accusantium ducimus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui molestias doloribus eum est maiores voluptatum velit eius tempora minus dignissimos voluptatem sint ipsa officia sed assumenda consectetur earum, accusantium ducimus!<div class="btn_reg"><a class="btn_reg-link">Купить билет</a></div></div>
-			
+			<div class="info_s">
+				<div class="info_s2 " style="background-image: url('img/pir.jpg')">Фестиваль Лига Будущего это пространство
+					образовательного досуга на весь день для всей
+					семьи. Участникам открывается возможность познакомиться с экспертами, узнать программы учебных центров,
+					подискутировать на волнующие вопросы о воспитании и образовании.</div>
+				<div class="info_s2" style="background-image: url('img/foto2.jpg')">
+					<div class="i_titel">Тренинги и мастер-классы</div>
+					<div class="i_content">Блоки для подростков на ораторское, личностный рост, работу в команде, МК от
+						центров на развитие креативного и проектного мышления</div>
+				</div>
+				<div class="info_s2" style=" background-image: url('img/back2.jpg')">
+					<div class="bg_img"></div>
+					<div class="i_titel">Лекции и дискуссии</div>
+					<div class="i_content">Блок для родителей для изучения разницы в возрастном и гендерном воспитании, о
+						приоритетных направлениях дополнительного образования для детей и трендах в образовании по всему миру
+					</div>
+				</div>
+				<div class="info_s2" style="background-image: url('img/s1200.jpg'); ">
+					<div class="i_titel">Игры</div>
+					<div class="i_content">Интеллектуальный баттл, викторина или квиз - лучшие варианты игр для ума</div>
+				</div>
+				<div class="info_s2" style="background-image: url('img/robot.jpg')">
+					<div class="i_titel">Робототехника</div>
+					<div class="i_content">Основа фестиваля - робоигры для студентов Лиги Роботов и МК для участников
+						фестиваля</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<footer>
-		<div class="social">
-			<div class="footer_soc">
-			<a class="soc_link" href="https://vk.com/arseg" target="blank"><i class="fab fa-vk"></i></a>
-			<a class="soc_link" href="https://www.instagram.com/argadjiusmanov/" target="blank"> <i class="fab fa-instagram"></i></a>
-			<a class="soc_link" href="https://twitter.com/MrQik" target="blank"> <i class="fab fa-twitter"></i></a></div>
+		<div class="connect2">
+			<form action="" class="formUser">
+				<div class="titel_form">Участие в фестивале<div class="lab_titel">Программа фестиваля в процессе
+						составления.
+						Оставьте свой e-mail, чтобы первыми узнать чего ожидать на фестивале</div>
+				</div>
+				<div class="grup_email form_l">
+					<input type="email" name="emailUserReg" id="emailUserReg" required=""><label for="emailUserReg">Email</label></div>
+
+				<input type="submit" name='submit' class="btn">
+			</form>
+			<div class="info_box">
+				<div class="info_link"> Поделитесь в опросе своими ожиданиями, чтоб мы подготовили мероприятие еще лучше
+				</div>
+				<div class=" link_in">Опрос</div>
+			</div>
+			<form action="" class="formMoney">
+				<div class="titel_form">Для организаций <div class="lab_titel">Если вы хотите стать партнерами фестиваля и
+						представить свои услуги, оставьте свои контакты:</div>
+				</div>
+				<div class="grup_mon">
+					<div class="form_l"><input type="name" name="name" required="" ><label for="name">Ф. И. О.</label></div>
+					<div class="form_l"> <input type="text" name="company" id="company" required=""><label for="company">Компания</label>
+					</div>
+					<div class="form_l"></div>
+					<div class="form_l"><input type="text" name="o" id="o" required="" ><label for="o3">Услуги</label></div>
+					<div class="form_l"> <input type="email" name="email" id="email" required=""><label for="email">Email</label></div>
+				</div>
+				<input type="submit" name='submit' class="btn">
+			</form>
 		</div>
-		<div class="info">RQIK 2019</div>
-	</footer>
+		<footer>
+			<!-- <div class="btn_reg"><a class="btn_reg-link">Купить билет</a></div> -->
+
+			<div class="social">
+				<div class="footer_soc">
+					<a class="soc_link" href="https://vk.com/arseg" target="blank"><i class="fab fa-vk"></i></a>
+					<a class="soc_link" href="https://www.instagram.com/argadjiusmanov/" target="blank"> <i
+							class="fab fa-instagram"></i></a>
+					<a class="soc_link" href="https://twitter.com/MrQik" target="blank"> <i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+				<div class="footer_soc">
+					<a class="soc_de">О проекте</a>
+					<a class="soc_de">Наши контакты</a>
+					<a class="soc_de">E-mail</a>
+				</div>
+
+			<div class="info"><a class="soc" href="https://www.instagram.com/RQIK/">RQIK 2019</a> </div>
+		</footer>
 </body>
 
 </html>
