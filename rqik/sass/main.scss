@@ -162,9 +162,7 @@ h2 {
    background-size: cover;
    min-height: 45vh;
    border-radius: 1rem;
-   span{
-      font-weight: 700;
-   }
+ 
    &:nth-child(1) {
       min-height: 45vh;
       background-position: 0 -90px;
@@ -472,9 +470,7 @@ cursor: pointer;
          padding: 0 5vw;
          background-position:center;
          grid-column:initial;
-         span{
-            font-weight: 700;
-         }
+        
       }
       &:hover {
          &:nth-child(1) {

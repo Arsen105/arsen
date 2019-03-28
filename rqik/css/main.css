@@ -203,10 +203,6 @@ h2 {
   cursor: pointer;
 }
 
-.info_s2 span {
-  font-weight: 700;
-}
-
 .info_s2:nth-child(1) {
   min-height: 45vh;
   background-position: 0 -90px;
@@ -556,9 +552,6 @@ footer a {
     padding: 0 5vw;
     background-position: center;
     grid-column: initial;
-  }
-  .info_s2:nth-child(1) span {
-    font-weight: 700;
   }
   .info_s2:hover:nth-child(1) {
     background-position: 0 -10px;
