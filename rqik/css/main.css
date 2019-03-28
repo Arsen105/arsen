@@ -615,9 +615,13 @@ footer a {
     font-size: 2.4rem;
   }
   .info_s2 {
+    background-color: rgba(0, 4, 26, 0.55);
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
+  }
+  .info_s2:hover {
+    background-position: 0 0;
   }
   .info_s2:nth-child(3) .i_content {
     font-size: 1.6rem;
