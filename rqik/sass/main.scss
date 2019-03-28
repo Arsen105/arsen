@@ -427,6 +427,7 @@ cursor: pointer;
      grid-auto-flow: row;
      .info_s2{
       &:nth-child(1){
+         background-position:center;
          grid-column:initial;
       }
      }
@@ -471,6 +472,18 @@ cursor: pointer;
       margin: 2.5vw auto;
       padding:  5vw;
    }
+   .info_s2{
+      &:nth-child(1){
+         text-align: start;
+         padding: 0 5vw;
+         background-position:center;
+         grid-column:initial;
+      }
+      &:hover {
+         &:nth-child(1) {
+            background-position: 0 -10px;
+         }
+     }}
 }
 @media only screen and (max-width: 420px){
 

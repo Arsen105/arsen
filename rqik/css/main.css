@@ -520,6 +520,7 @@ footer a {
     grid-auto-flow: row;
   }
   .info_s .info_s2:nth-child(1) {
+    background-position: center;
     grid-column: initial;
   }
   form, .info_box {
@@ -562,5 +563,14 @@ footer a {
     max-width: 90vw;
     margin: 2.5vw auto;
     padding: 5vw;
+  }
+  .info_s2:nth-child(1) {
+    text-align: start;
+    padding: 0 5vw;
+    background-position: center;
+    grid-column: initial;
+  }
+  .info_s2:hover:nth-child(1) {
+    background-position: 0 -10px;
   }
 }
