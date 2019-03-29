@@ -19,6 +19,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+  color: #000;
   line-height: 1.5em;
   margin: 0 auto;
 }
@@ -179,10 +180,10 @@ h2 {
   padding: 0 4rem;
   color: #fff;
   background-blend-mode: multiply;
-  background-size: cover;
   min-height: 45vh;
   border-radius: 1rem;
-  background-color: rgba(0, 4, 26, 0.23);
+  background-color: rgba(0, 4, 26, 0.473);
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,6 +205,9 @@ h2 {
 }
 
 .info_s2:nth-child(1) {
+  background: url("../img/pir.jpg") center no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 4, 26, 0.273);
   min-height: 45vh;
   background-position: 0 -90px;
   text-align: center;
@@ -216,15 +220,34 @@ h2 {
   line-height: 3.52rem;
 }
 
-.info_s2:hover {
-  background-color: rgba(0, 4, 26, 0.55);
-  background-position: 0 -10px;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.13);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.13);
+.info_s2:nth-child(2) {
+  background: url("/img/foto2.jpg") center no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 4, 26, 0.273);
 }
 
-.info_s2:hover:nth-child(1) {
-  background-position: 0 -100px;
+.info_s2:nth-child(3) {
+  background: url("/img/back2.jpg") center no-repeat;
+  background-color: rgba(0, 4, 26, 0.273);
+  background-size: cover;
+}
+
+.info_s2:nth-child(4) {
+  background: url("/img/s1200.jpg") center no-repeat;
+  background-color: rgba(0, 4, 26, 0.273);
+  background-size: cover;
+}
+
+.info_s2:nth-child(5) {
+  background: url("/img/robot.jpg") center no-repeat;
+  background-color: rgba(0, 4, 26, 0.273);
+  background-size: cover;
+}
+
+.info_s2:hover {
+  background-color: rgba(0, 4, 26, 0.55);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.13);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.13);
 }
 
 .i_titel {
